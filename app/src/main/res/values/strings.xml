@@ -6,4 +6,11 @@
     <string name="text_next">Next</string>
     <string name="textTitleOnboarding1">Explore a wide range of products</string>
     <string name="textSubTitleOnboarding1">Explore a wide range of products at your fingertips. QuickMart offers an extensive collection to suit your needs.</string>
+    <string name="signup">Signup</string>
+    <string name="email">Email</string>
+    <string name="textStar">*</string>
+    <string name="login">Login</string>
+    <string name="subTitle">Already have an account?</string>
+    <string name="fullName">Full Name</string>
+    <string name="passwordText">Password</string>
 </resources>

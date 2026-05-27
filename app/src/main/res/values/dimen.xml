@@ -13,4 +13,8 @@
     <dimen name="defaultButtonHeight">70dp</dimen>
     <dimen name="defaultButtonRadius">20dp</dimen>
     <dimen name="defaultButtonStrokeSize">5dp</dimen>
+    <dimen name="defaultInputHeight">60dp</dimen>
+    <dimen name="defaultInputStrokeSize">2dp</dimen>
+    <dimen name="defaultInputRadius">20dp</dimen>
+    <dimen name="defaultInputPadding">20dp</dimen>
 </resources>

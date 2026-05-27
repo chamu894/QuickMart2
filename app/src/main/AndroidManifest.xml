@@ -12,7 +12,8 @@
         android:theme="@style/Theme.QuickMart">
         <activity
             android:name=".activity.AuthenticationActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".activity.HomeActivity"
             android:exported="false" />
