@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defaultLayoutPadding">20dp</dimen>
+    <dimen name="fontSizeHeading1">32sp</dimen>
+    <dimen name="fontSizeHeading2">24sp</dimen>
+    <dimen name="fontSizeHeading3">18sp</dimen>
+    <dimen name="fontSizeButton1">16sp</dimen>
+    <dimen name="fontSizeButton2">14sp</dimen>
+    <dimen name="fontSizeBody1">14sp</dimen>
+    <dimen name="fontSizeBody2">12sp</dimen>
+    <dimen name="fontSizeCaption">12sp</dimen>
+    <dimen name="fontSizeOverline">10sp</dimen>
+    <dimen name="defaultButtonHeight">70dp</dimen>
+    <dimen name="defaultButtonRadius">20dp</dimen>
+    <dimen name="defaultButtonStrokeSize">5dp</dimen>
+</resources>

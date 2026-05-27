@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quick Mart</string>
+    <string name="textSkipForNow">Skip for Now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_next">Next</string>
+    <string name="textTitleOnboarding1">Explore a wide range of products</string>
+    <string name="textSubTitleOnboarding1">Explore a wide range of products at your fingertips. QuickMart offers an extensive collection to suit your needs.</string>
+</resources>

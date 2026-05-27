@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brandColorsCyan50">#212322</color>
+    <color name="grey50">#282828</color>
+    <color name="grey100">#BEBEBE</color>
+    <color name="grey150">#A1A1A5</color>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#FF000000</color>
+    <color name="brandColorsCyan">#21D4B4</color>
+    <color name="generalRed">#EE4D4D</color>
+    <color name="generalCyan50">#08E287</color>
+    <color name="generalBlue">#1F8AD8</color>
+    <color name="generalPurple">#4E1FD8</color>
+    <color name="generalYellow">#E9ED14</color>
+    <color name="generalOrange">#EE811D</color>
+    <color name="generalMerigold">#FDC944</color>
+    <color name="generalBrown">#591A05</color>
+    <color name="generalPink">#CC1DE9</color>
+</resources>
