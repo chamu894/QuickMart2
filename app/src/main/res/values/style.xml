@@ -69,5 +69,9 @@
         <item name="android:letterSpacing">0.015</item> <!-- 1.5% -->
         <item name="textAllCaps">true</item> <!-- Usually overlines are all caps -->
     </style>
+    
+    <style name="CirecleButton">
+        <item name="cornerSize">100%</item>
+    </style>
 
 </resources>

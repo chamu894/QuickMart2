@@ -3,8 +3,8 @@
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:fillViewport="true">
 
 
@@ -230,11 +230,91 @@
             android:layout_height="50dp"
             android:layout_marginEnd="20dp"
             android:background="@android:color/transparent"
-            android:tint="@color/show_password_btn_icon_tint"
             app:layout_constraintBottom_toBottomOf="@+id/passwordInput"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/passwordInput"
-            app:srcCompat="@drawable/eyes_open" />
+            app:srcCompat="@drawable/eyes_open"
+            app:tint="@color/show_password_btn_icon_tint"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/generalBlue" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:text="OR" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/generalBlue" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/default_strke_buttan_shap"
+                app:backgroundTint="@null"
+                app:icon="@drawable/icon_google"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:iconSize="30dp"
+                app:iconTint="@null"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/stroke_button_bg"
+                app:backgroundTint="@null"
+                app:icon="@drawable/icon_fb"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:iconSize="30dp"
+                app:iconTint="@null"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
