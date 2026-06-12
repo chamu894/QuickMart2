@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-  
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/nav_icon_home"
+        android:title="@string/navTextHome" />
+
+    <item
+        android:id="@+id/categoriesFragment"
+        android:icon="@drawable/nav_icon_category"
+        android:title="@string/navTextCategories" />
+
+    <item
+        android:id="@+id/cartFragment"
+        android:icon="@drawable/nav_icon_cart"
+        android:title="@string/navTextCart" />
+
+    <item
+        android:id="@+id/wishlistFragment"
+        android:icon="@drawable/nav_icon_wishlist"
+        android:title="@string/navTextWishlist" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/nav_icon_profile"
+        android:title="@string/navTextProfile" />
+
 </menu>

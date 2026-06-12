@@ -13,4 +13,10 @@
     <string name="subTitle">Already have an account?</string>
     <string name="fullName">Full Name</string>
     <string name="passwordText">Password</string>
+    <string name="textHome">Home</string>
+    <string name="navTextCart">Cart</string>
+    <string name="navTextCategories">Categories</string>
+    <string name="navTextHome">Home</string>
+    <string name="navTextProfile">Profile</string>
+    <string name="navTextWishlist">Wishlist</string>
 </resources>

@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cartFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.quickmart.android.fragment.home.HomeFragment"
+        android:label="@string/textHome"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.quickmart.android.fragment.home.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.quickmart.android.fragment.home.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.quickmart.android.fragment.home.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/wishlistFragment"
+        android:name="com.quickmart.android.fragment.home.WishlistFragment"
+        android:label="fragment_wishlist"
+        tools:layout="@layout/fragment_wishlist" />
 
 </navigation>
