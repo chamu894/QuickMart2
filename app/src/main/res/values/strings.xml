@@ -19,4 +19,5 @@
     <string name="navTextHome">Home</string>
     <string name="navTextProfile">Profile</string>
     <string name="navTextWishlist">Wishlist</string>
+    <string name="backBtn">Back</string>
 </resources>

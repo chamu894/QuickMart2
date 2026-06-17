@@ -71,7 +71,7 @@
     </style>
     
     <style name="CirecleButton">
-        <item name="cornerSize">100%</item>
+        <item name="cornerSize">20%</item>
     </style>
 
 </resources>

@@ -13,6 +13,48 @@
         android:background="@color/white"
         android:orientation="vertical">
 
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/ic_menu"
+            app:navigationIconTint="@color/black"
+            android:paddingTop="20dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/app_small_icon"
+                    android:visibility="visible" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/transparent_button_bg"
+                    android:src="@drawable/ic_notification"
+                    android:tint="@color/black"
+                    android:visibility="visible"
+                    app:backgroundTint="@null"
+                    app:iconGravity="end"
+                    app:iconPadding="0dp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textHome"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/containerView"
             android:name="androidx.navigation.fragment.NavHostFragment"
@@ -23,7 +65,7 @@
             tools:layout="@layout/fragment_home" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/BottomNavigationView"
+            android:id="@+id/bottomNavigationView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
@@ -42,7 +84,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/drawer_menu"
-        android:padding="10dp"
+        android:padding="20dp"
+        app:headerLayout="@layout/nav_header_layout"
         />
 
 </androidx.drawerlayout.widget.DrawerLayout>
