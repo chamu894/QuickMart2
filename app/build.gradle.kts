@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -54,4 +55,9 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     // Source: https://mvnrepository.com/artifact/org.projectlombok/lombok
     implementation("org.projectlombok:lombok:1.18.46")
+
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.firestore)
+
 }
