@@ -32,7 +32,7 @@
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/productName"
                 style="@style/TextAppearance.App.Heading3_Regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
