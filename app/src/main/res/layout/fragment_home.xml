@@ -5,12 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".fragment.home.HomeFragment">
 
-    <TextView
-        style="@style/TextAppearance.App.Heading1_Bold"
+    <Button
+        android:id="@+id/insertbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/navTextHome"
-        android:textAlignment="center" />
-
+        android:text="Button" />
 </FrameLayout>
